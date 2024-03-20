@@ -6,7 +6,7 @@
     "summary": "微软 TTS 文字转语音",
     "icon": "121",
     "author": "billy",
-    "homepage": "",
+    "homepage": "https://github.com/xiaobili/bob-plugin-microsoft-tts",
     "appcast": "",
     "minBobVersion": "0.5.0",
     "options": [
