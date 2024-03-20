@@ -2,7 +2,7 @@ var config = require('./config.js');
 var utils = require('./utils.js');
 
 function supportLanguages() {
-    return items.map(([standardLang, lang]) => standardLang);
+    return config.map(([standardLang, lang]) => standardLang);
 }
 
 function tts(query, completion) {
