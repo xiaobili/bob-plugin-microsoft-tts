@@ -32,7 +32,7 @@ function tts(query, completion) {
             completion({
                 result: {
                     "type": "base64",
-                    "data": audio.toBase64(),
+                    "value": audio.toBase64(),
                     "raw": {}
                 }
             });
