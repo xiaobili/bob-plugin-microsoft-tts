@@ -24,8 +24,8 @@ function tts(query, completion) {
                     "Content-Type": "application/json",
                 },
                 body: {
-                    voice: $option[targetLanguage + '-speaker'],
-                    text: query.text,
+                    "voice": $option[targetLanguage + '-speaker'],
+                    "text": query.text,
                 }
             });
             const audio = $data.fromData(resp.rawData);
