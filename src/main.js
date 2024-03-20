@@ -20,6 +20,9 @@ function tts(query, completion) {
             const resp = await $http.request({
                 method: "POST",
                 url: query.server,
+                header: {
+                    "Content-Type": "application/json",
+                },
                 body: {
                     voice: $option[targetLanguage + '-speaker'],
                     text: query.text,
