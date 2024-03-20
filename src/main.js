@@ -19,7 +19,7 @@ function tts(query, completion) {
         try {
             const resp = await $http.request({
                 method: "POST",
-                url: query.server,
+                url: $option['server'],
                 header: {
                     "Content-Type": "application/json",
                 },

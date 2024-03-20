@@ -11,19 +11,6 @@
     "minBobVersion": "0.5.0",
     "options": [
         {
-            "identifier": "desc",
-            "type": "menu",
-            "title": "描述",
-            "defaultValue": "Billy",
-            "menuValues": [
-                {
-                    "title": "免秘钥微软 TTS 文字转语音;",
-                    "value": "Billy"
-                }
-            ],
-            "desc": "免秘钥微软 TTS 文字转语音"
-        },
-        {
             "identifier": "server",
             "type": "text",
             "title": "服务地址",
